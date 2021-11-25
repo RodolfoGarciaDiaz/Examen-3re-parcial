@@ -2,7 +2,7 @@
 //1° "3" UAEH Programacion en C
 //EXAMEN 3 Parcial 25-11-2021
 #include<stdio.h>
-#define MAX 50
+#define MAX 10
 int main(int argc, char** args)
 {
 int MAT[MAX][MAX], N, M, i=0, j=0;
