@@ -1,1 +1,42 @@
+//Rodolfo García Díaz
+//1° "3" UAEH Programacion en C
+//EXAMEN 3 Parcial 25-11-2021
+# include <stdio.h>
+#include <conio.h>
+int main()
+{
+	int a=5;
+	int b=12;
+	int c, d;
+	int matriz[5][12],i, j, vector[12]={0,0,0}, vector2[12]={0,0,0};
+	for(i=0; i<a; i++)
+	for(j=0; j<b; j++)
+	{
+		printf("indica el valor del producto %d, del mes %d \n", i, j);
+		scanf("%d", &matriz[i][j]);
+		vector[i]=vector[i]+matriz[i][j];
+		vector2[j]=vector2[j]+matriz[i][j];
+
+	}
+	printf("Los valores obtenidos son:\n\n");
+	for (i=0; i<a; i++)
+	{
+		printf("\n");
+	for (j=0; j<b; j++)
+	{
+	printf ("%d \t", matriz[i][j]);
+	}
+	}
+	printf("\n\n");
+
+	for (i=0; i<a; i++)
+	printf("venta anual por producto %d, %d \n",i, vector[i]);
+
+		for (i=0; i<a; i++)
+	printf("%d promedio anual por producto \n", vector[i]/12);
+	{
+		getch();
+		return 0;
+	}
+}
 
