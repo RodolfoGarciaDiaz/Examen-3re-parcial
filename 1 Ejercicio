@@ -1,4 +1,4 @@
-//Rodolfo García Díaz
+/Rodolfo García Díaz
 //1° "3" UAEH Programacion en C
 //EXAMEN 3 Parcial 25-11-2021
 #include<stdio.h>
@@ -15,7 +15,7 @@ printf("Ingrese la matriz\n");
   }
   else {
     printf("Cuantas filas (M): ");
-  scanf("%d", &M);
+  scanf("%d", &M);/
   }
    if (M<0||M>51)
   {
